@@ -71,3 +71,9 @@ target/
 # pyenv
 .python-version
 
+
+\.idea/
+
+\.pytest_cache/v/cache/
+
+example_project/venv/

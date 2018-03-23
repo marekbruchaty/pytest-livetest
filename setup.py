@@ -12,7 +12,7 @@ def read(fname):
 
 
 setup(
-    name='pytest-livetest',
+    name='livetest',
     version='0.1.0',
     author='Marek Bruchaty',
     author_email='marekbruchaty@gmail.com',
@@ -22,7 +22,8 @@ setup(
     url='https://github.com/marekbruchaty/pytest-livetest',
     description='todo',
     long_description=read('README.rst'),
-    py_modules=['pytest_livetest'],
+    py_modules=['livetest'],
+    packages=['livetest'],
     install_requires=['pytest>=3.1.1'],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -44,7 +45,7 @@ setup(
     ],
     entry_points={
         'pytest11': [
-            'livetest = pytest_livetest',
+            'livetest = livetest.pytest_livetest',
         ],
     },
 )
