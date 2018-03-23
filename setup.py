@@ -24,7 +24,7 @@ setup(
     long_description=read('README.rst'),
     py_modules=['livetest'],
     packages=['livetest'],
-    install_requires=['pytest>=3.1.1'],
+    install_requires=['pytest>=3.1.1', 'jsonpickle', 'coverage'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Pytest',

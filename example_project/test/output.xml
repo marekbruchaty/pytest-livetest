@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="0.051"><testcase classname="python.python-tests.test.test_wallet_unittest.TestWallet" file="python/python-tests/test/test_wallet_unittest.py" line="17" name="test_wallet_spend_cash" time="0.00047135353088378906"></testcase></testsuite>
